@@ -24,5 +24,10 @@
   },
   "devDependencies": {
     "browserify": "^16.1.0"
+  },
+  "browserify": {
+    "transform": [
+      "cssify"
+    ]
   }
 }
